@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board {
+    width: 400px;
+
+    border: 3px solid black;
+    margin: 100px auto 20px auto;
+}
+
+.board div {
+    width: 20%;
+    height: 10px;
+}
+
+h1 {
+    width: 100%;
+    font-family: arial;
+    text-align: center;
+}
