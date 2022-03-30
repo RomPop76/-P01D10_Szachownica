@@ -18,8 +18,12 @@
 
 .board div {
     width: 20%;
-    height: 20px;
+    height: 4em;
     float: left;
+}
+
+.board div:nth-child(even) {
+    background-color: black;
 }
 
 h1 {
